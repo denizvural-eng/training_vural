@@ -5,13 +5,14 @@ editor: visual
 ---
 ## Course Lessons
 
-- Introduction to Quarto
+- [Introduction to Quarto](scripts/quarto-intro.html)
 
 - Introduction to git and GitHub
 - Cleaning and Wrangling data
+- [Visualizing data](script/viz-intro.html)
 
 
-## Course Practice Session
+## Practice sessions
 
 - Practice I
 - Practice II
