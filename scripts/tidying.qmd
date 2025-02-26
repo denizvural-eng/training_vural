@@ -99,7 +99,7 @@ head(catch_long)
 ```
 ```{r}
 catch_long <- catch_long %>% 
-  mutate(catch_thousands * 1000) %>% 
+  mutate(catch = catch_thousands * 1000) %>% 
   select(-catch_thousands)
 head(catch_long)
 ```
@@ -136,7 +136,7 @@ head(catch_million)
 # filter to just Chinook for SSE
 chinook_sse <- catch_long %>% 
   filter(Region == "SSE" & species == "Chinook")
-head(Chinook_sse)
+head(chinook_sse)
 ```
 ## Sorting data with arrange ()
 ```{r}
