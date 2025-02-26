@@ -3,15 +3,15 @@ title: "index"
 format: html
 editor: visual
 ---
+## Course Lessons
 
-\## Course Lessons
+- Introduction to Quarto
 
-- [Introduction to Quarto](scripts/intro.html)
-
-\- Introduction to git and GitHub
+- Introduction to git and GitHub
 - Cleaning and Wrangling data
 
-\## Course Practice Session
+
+## Course Practice Session
 
 - Practice I
 - Practice II
